@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página de Sneakers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+            <a class="navbar-brand" href="#">Sneakers</a>
+        </nav>
+    </header>
+    
+    <section class="container">
+        <h1 class="mt-5">Explora Nuestra Colección de Sneakers</h1>
+        <div class="sneaker" onmouseover="showInfo(this)" onmouseout="hideInfo(this)">
+            <img src="Jordan1.png" alt="Sneaker 1">
+            <div class="sneaker-info">
+                <h3>Jordan 1</h3>
+                <p>Los Jordan 1 son una icónica línea de zapatillas deportivas creadas por Nike en colaboración con el legendario jugador de baloncesto Michael Jordan. Estas zapatillas se lanzaron por primera vez en 1985 y se han convertido en un símbolo de la cultura urbana y el estilo de vida.</p>
+            </div>
+        </div>
+
+        <div class="sneaker" onmouseover="showInfo(this)" onmouseout="hideInfo(this)">
+            <img src="nb-removebg-preview.png" alt="Sneaker 2">
+            <div class="sneaker-info">
+                <h3>New balance 992</h3>
+                <p>Un modelo emblemático de la marca New Balance. Se destacan por su diseño clásico y su enfoque en la comodidad y la calidad. El modelo 992 ha sido utilizado tanto como zapatillas para correr como para uso casual debido a su suela amortiguada y su parte superior de gamuza y malla. </p>
+            </div>
+        </div>
+
+        <div class="sneaker" onmouseover="showInfo(this)" onmouseout="hideInfo(this)">
+            <img src="converse.png" alt="Sneaker 3">
+            <div class="sneaker-info">
+                <h3> Converse Chuck Taylor</h3>
+                <p>Introducidasen la década de 1920, se caracterizan por su diseño de corte alto o bajo, su suela de goma blanca y su distintivo parche con la estrella en el tobillo. Son conocidas por su estilo atemporal y versatilidad, y se han convertido en un elemento básico en la moda casual.</p>
+            </div>
+        </div>
+
+        <div class="sneaker" onmouseover="showInfo(this)" onmouseout="hideInfo(this)">
+            <img src="vans.png" alt="Sneaker 4">
+            <div class="sneaker-info">
+                <h3>Vans Old Skool</h3>
+                <p>Se caracterizan por tener una franja lateral en forma de "V" y una parte superior de lona o cuero, generalmente con una suela de goma vulcanizada. Estas zapatillas se introdujeron originalmente en 1977 y se han mantenido populares a lo largo de los años debido a su estilo clásico y versatilidad. </p>
+            </div>
+        </div>
+
+        <!-- Agrega más modelos de sneakers aquí -->
+
+    </section>
+
+    <script src="script.js"></script>
+
+    <footer class="footer">
+        <p>© 2023 Sneakers Store</p>
+    </footer>
+</body>
+</html>
